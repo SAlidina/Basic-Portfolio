@@ -54,14 +54,12 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-h1,
 h2,
 h3,
 p {margin-bottom: 20px}
 
 p:last {margin-bottom: 0;}
 
-h1,
 h2,
 h3 {
     font-size: 24px;
@@ -71,9 +69,9 @@ h3 {
 
 h1 {
     font-size: 30px;
-    line-height: 49px;
     border-bottom: 3px solid maroon;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 h2,
@@ -116,13 +114,12 @@ h3 {
 
 .rightbox {
     background: #ffff;
-    padding: 30px;
+    padding: 15px;
     margin-top: 100px;
     width:100%;
     max-width: 230px;
     float: right;
     border: 2px solid maroon;
-    border-bottom: 2px solid black;
     padding-bottom: 10px;
     margin-bottom: 15px;
     line-height: 22px;
@@ -130,9 +127,7 @@ h3 {
     
 }
     
-.socialbutton :last-child {
-    margin-right: 0;
-}
+
 
 footer {
     background: maroon;
@@ -140,4 +135,5 @@ footer {
     padding: 30px 0;
     clear: both;
     border-top: 8px solid white;
+    text-align: center;
 }
